@@ -1,21 +1,23 @@
 {
-  "name": "@ipreo/markdown-templator",
+  "name": "markdown-templator-fork",
   "version": "0.0.1",
   "description": "Include markdown files in an HTML template",
-  "publishConfig":{"registry":"https://ipreo.jfrog.io/ipreo/api/npm/npm"},
   "main": "index.js",
   "bin": {
     "markdown-templator": "./bin/markdown-templator"
   },
+ "author": {
+    "name": "Josh Easter"
+  },  
   "scripts": {
     "test": "node ./test/test.js | tap-spec"
   },
   "repository": {
     "type": "git",
-    "url": "git@code.ipreo.com:josh-easter/markdown-templator.git"
+    "url": "git@github.com:jeaster12/markdown-templator.git"
   },
   "bugs": {
-    "url": "https://code.ipreo.com/josh-easter/markdown-templator/issues"
+    "url": "https://github.com/jeaster12/markdown-templator/issues"
   },
   "dependencies": {
     "marked": "^0.3.5",
